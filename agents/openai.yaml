@@ -1,0 +1,5 @@
+interface:
+  display_name: "职业规划大赛指导"
+  short_description: "按官方评分标准指导职业规划大赛材料制作、展示与答辩训练"
+  default_prompt: "使用 $career-planning-competition 按我的赛道和官方评分标准指导我准备职业规划大赛。"
+
