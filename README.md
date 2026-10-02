@@ -1,5 +1,8 @@
 # 全国大学生职业规划大赛指导 Skill
 
+[![GitHub stars](https://img.shields.io/github/stars/6laoliu6/career-planning-competition-cn-skill?style=social)](https://github.com/6laoliu6/career-planning-competition-cn-skill/stargazers)
+[![MIT License](https://img.shields.io/github/license/6laoliu6/career-planning-competition-cn-skill)](LICENSE)
+
 ![全国大学生职业规划大赛指导 Skill](assets/banner.png)
 
 一个面向全国大学生职业规划大赛的免费开源 Codex Skill，支持成长赛道和就业赛道备赛。它会按官方评分标准帮助参赛者梳理真实经历、建立证据链，并完成或审核生涯发展报告、求职简历、展示 PPT、陈述稿、证明材料和答辩内容。
@@ -33,16 +36,16 @@ Skill 默认采用第三届全国大学生职业规划大赛（2025—2026）国
 
 ## 安装
 
-将整个仓库复制到 Codex 的 Skills 目录，并确保最终路径如下：
+使用 Git 克隆到 Codex 的 Skills 目录：
+
+```powershell
+git clone https://github.com/6laoliu6/career-planning-competition-cn-skill.git "$HOME/.codex/skills/career-planning-competition"
+```
+
+也可以下载仓库后手动复制，并确保最终路径如下：
 
 ```text
 ~/.codex/skills/career-planning-competition/SKILL.md
-```
-
-Windows PowerShell 示例：
-
-```powershell
-Copy-Item -Recurse -Force . "$HOME/.codex/skills/career-planning-competition"
 ```
 
 安装后重新打开 Codex 会话，或在新的对话中使用。
@@ -84,3 +87,11 @@ Copy-Item -Recurse -Force . "$HOME/.codex/skills/career-planning-competition"
 - 所有奖项、排名、数据、访谈结论和岗位信息都应有真实依据。
 - 评分时区分官方权重与内部诊断，不把自定义细分分值说成官方标准。
 - 先修复报告、简历、PPT、陈述稿之间的事实冲突，再优化表达和视觉呈现。
+
+## 参与改进
+
+欢迎通过 Issue 提交规则更新、材料问题和改进建议。如果这个项目对你有帮助，可以点一个 Star，让更多参赛同学看到它。
+
+## 许可证
+
+本项目采用 [MIT License](LICENSE)。
